@@ -16,5 +16,9 @@
  ```
  uvicorn main:app --reload
  ```
+</br>
+
+3. **Acesse http://localhost:8000/chat**
+
 
 
