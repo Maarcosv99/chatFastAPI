@@ -1,0 +1,300 @@
+.body-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(200, 100.00%, 96.21%, 1.00);
+    font-family: Lato;
+    color: hsla(0, 0.00%, 100.00%, 1.00);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.body-2:tiny {
+    padding-top: 30px;
+    align-items: flex-start;
+}
+
+.section {
+    overflow: hidden;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+.section:tiny {
+    width: 100%;
+    background-color: transparent;
+}
+
+.container {
+    overflow: visible;
+    max-width: none;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #62aace;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #62aace;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #62aace;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #62aace;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container:tiny {
+    overflow: hidden;
+    max-width: 300px;
+    background-color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+.div-t-tulo {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    background-color: hsla(200, 52.15%, 59.60%, 1.00);
+}
+
+.div-block-174 {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: hsla(0, 0.00%, 0.00%, 0.07);
+    color: hsla(0, 0.68%, 75.17%, 1.00);
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-block:tiny {
+    font-size: 11px;
+}
+
+.div-mensagens {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 400px;
+    max-height: 400px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.div-mensagens::-webkit-scrollbar {
+    width: 6px;
+}
+
+.div-mensagens::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.div-mensagens::-webkit-scrollbar-thumb:hover {
+    background-color:dodgerblue;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message:tiny {
+    margin-bottom: 17px;
+}
+
+.message-chat {
+    position: relative;
+    display: block;
+    width: 50%;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    align-self: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #d1e0f5;
+    color: hsla(214, 16.64%, 52.81%, 1.00);
+}
+
+.message-chat:tiny {
+    width: 90%;
+}
+
+.message-chat.left {
+    align-self: flex-start;
+}
+  
+.message-chat.right {
+    align-self: flex-end;
+    background-color: hsla(215, 100.00%, 86.16%, 1.00);
+}
+
+.message-chat-name-user {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 4px;
+    color: hsla(214, 83.61%, 43.57%, 1.00);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.message-chat-name-user:tiny {
+    font-size: 13.5px;
+}
+
+.message-chat-text {
+    word-break: break-all;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 7px;
+    font-family: Lato;
+    color: hsla(214, 34.53%, 27.75%, 1.00);
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.message-chat-text:tiny {
+    font-size: 14.5px;
+    line-height: 17px;
+}
+
+.message-chat-hour {
+    color: hsla(214, 33.10%, 64.13%, 1.00);
+    font-size: 13px;
+    line-height: 13px;
+    text-align: right;
+}
+
+.message-chat-arrow {
+    position: absolute;
+    left: auto;
+    top: 8px;
+    right: -2px;
+    bottom: auto;
+    z-index: 0;
+    width: 0px;
+    height: 0px;
+    border-top-style: solid;
+    border-top-width: 15px;
+    border-top-color: hsla(212.57142857142858, 61.40%, 88.82%, 1.00);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-right-color: black;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-bottom-color: hsla(212.57142857142858, 61.40%, 88.82%, 1.00);
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-left-color: hsla(212.57142857142858, 61.40%, 88.82%, 1.00);
+    background-color: hsla(212.57142857142858, 61.40%, 88.82%, 1.00);
+    transform: rotate(-40deg);
+    color: transparent;
+}
+
+.message-chat-arrow.left {
+    left: -2px;
+    top: 8px;
+    right: auto;
+    bottom: auto;
+}
+
+.message-chat-arrow.right {
+    border-top-color: hsla(214.64788732394365, 100.00%, 86.08%, 1.00);
+    border-left-color: hsla(214.64788732394365, 100.00%, 86.08%, 1.00);
+    background-color: hsla(214.64788732394365, 100.00%, 86.08%, 1.00);
+}
+
+.div-envio {
+    display: flex;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #dbe9f5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: hsla(206, 0.00%, 100.00%, 1.00);
+}
+
+.div-envio:tiny {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.textarea-2 {
+    display: block;
+    /*overflow: auto;*/
+    max-height: 85px;
+    min-height: 30px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    border-top-color: black;
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-color: black;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-left-color: black;
+    font-size: 16px;
+    line-height: 20px;
+    resize: none;
+}
+
+.form-block {
+    width: 82%;
+    max-height: 85px;
+    min-height: 30px;
+    margin-bottom: 0px;
+}
+
+.form-block:tiny {
+    width: 75%;
+}
+
+.bot-es-icone {
+    display: flex;
+    width: 17%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bot-es-icone:tiny {
+    width: 25%;
+}
+
+.icone {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
